@@ -4,50 +4,37 @@ title: Квик Осинт — Бот для поиска данных в Тел
 permalink: /quickosint_bot/
 ---
 
-<link rel="stylesheet" href="/assets/css/redblog.css">
+<div class="content">
 
-<div class="fullpage-red">
-  <div class="red-blog-wrapper">
+  <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 30px;">
 
-    <img src="/assets/images/quick_osint.webp" alt="Квик Осинт — поиск данных">
+  <h1>Квик Осинт — Бот для поиска данных в Телеграм</h1>
 
-    <h1>Квик Осинт — Бот для поиска данных в Телеграм</h1>
+  <p>
+    В условиях частых утечек и взломов данных, использование надёжных инструментов для поиска информации становится важным.
+    <strong><a href="{{ site.button_url }}" class="btn" target="_blank">Квик Осинт</a></strong> — это Telegram-бот, который позволяет быстро получить данные о взломах, утечках и других сведениях по номеру телефона.
+  </p>
 
-    <p>
-      В условиях частых утечек и взломов данных, использование надёжных инструментов для поиска информации становится важным.
-      <strong><a href="{{ site.button_url }}" target="_blank">Квик Осинт</a></strong> — это Telegram-бот, который позволяет быстро получить данные о взломах, утечках и других сведениях по номеру телефона.
-    </p>
+  <p>Квик Осинт предлагает многофункциональный набор инструментов для работы с данными:</p>
 
-    <p>Квик Осинт предлагает многофункциональный набор инструментов для работы с данными, включая:</p>
+  <ul style="text-align: left; max-width: 600px; margin: 0 auto 30px; padding-left: 20px;">
+    <li><strong>Поиск по номеру:</strong> аккаунты, связанные с номером.</li>
+    <li><strong>Проверка email:</strong> поиск по утёкшим базам.</li>
+    <li><strong>Информация о ТС:</strong> VIN или регистрационный номер.</li>
+    <li><strong>Определение IP:</strong> примерная геолокация.</li>
+    <li><strong>Поиск утечек:</strong> анализ открытых баз.</li>
+  </ul>
 
-    <ul>
-      <li><strong>Поиск по номеру телефона:</strong> находит аккаунты, связанные с данным номером.</li>
-      <li><strong>Проверка email:</strong> сканирует утёкшие базы.</li>
-      <li><strong>Информация о ТС:</strong> VIN или регистрационный номер.</li>
-      <li><strong>Определение IP:</strong> геолокация по IP-адресу.</li>
-      <li><strong>Поиск утечек:</strong> проверка открытых баз.</li>
-    </ul>
+  <p><strong>Как начать:</strong></p>
+  <ol style="text-align: left; max-width: 600px; margin: 0 auto 30px; padding-left: 20px;">
+    <li>Открой <a href="{{ site.button_url }}" target="_blank">чат с ботом</a>.</li>
+    <li>Нажми “Start”.</li>
+    <li>Введи команду или номер — и получи результат.</li>
+  </ol>
 
-    <p><strong>Как начать:</strong></p>
+  <p>
+    <strong>Для проверки номера:</strong><br>
+    Отправьте <code>+78585541232</code> в чат с ботом. Он проверит наличие в утечках и покажет результат.
+  </p>
 
-    <ol>
-      <li>Перейдите по <a href="{{ site.button_url }}" target="_blank">ссылке</a> и откройте чат с ботом.</li>
-      <li>Нажмите “Start”.</li>
-      <li>Следуйте подсказкам бота.</li>
-    </ol>
-
-    <p>Квик Осинт соблюдает законы и использует только открытые источники. Инструмент безопасен и удобен.</p>
-
-    <p><strong>Для проверки номера:</strong></p>
-
-    <ol>
-      <li>Отправьте номер <code>+78585541232</code> в чат.</li>
-      <li>Бот проверит и сообщит, если найдёт совпадения.</li>
-    </ol>
-
-    <p style="margin-top: 30px;">
-      <strong><a href="{{ site.button_url }}" target="_blank">Квик Осинт</a></strong> — мощный, удобный и безопасный способ анализа данных.
-    </p>
-
-  </div>
 </div>
