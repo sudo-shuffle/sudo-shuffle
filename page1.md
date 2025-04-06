@@ -16,53 +16,60 @@ markdown: false
 
   .custom-osint-wrapper {
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px 10px;
+    padding: 40px 20px;
     border-radius: 12px;
     max-width: 800px;
     width: 100%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
     margin: 0 auto;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
   }
 
-  .custom-osint-wrapper .inner {
+  .custom-osint-content {
     max-width: 680px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 15px;
   }
 
-  .custom-osint-wrapper h1 {
+  .custom-osint-content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  .custom-osint-content h1 {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .custom-osint-wrapper p,
-  .custom-osint-wrapper ul,
-  .custom-osint-wrapper ol {
+  .custom-osint-content p,
+  .custom-osint-content ul,
+  .custom-osint-content ol {
     text-align: left;
-    margin: 16px 0;
-    padding: 0;
-    font-size: 16px;
     line-height: 1.6;
+    margin: 16px 0 15px;
+    padding: 0 5px;
   }
 
-  .custom-osint-wrapper li {
+  .custom-osint-content li {
     margin-bottom: 10px;
   }
 
-  .custom-osint-wrapper code {
+  .custom-osint-content code {
     background: #333;
     padding: 2px 6px;
     border-radius: 4px;
   }
 
-  .custom-osint-wrapper a {
-    color: #fff;
-    text-decoration: underline;
+  .custom-osint-button {
+    margin-top: 40px;
+    text-align: center;
   }
 
-  .custom-osint-wrapper .cta-button {
+  .custom-osint-button a {
     display: inline-block;
     padding: 12px 30px;
     background-color: #d90429;
@@ -73,49 +80,21 @@ markdown: false
     transition: background-color 0.3s;
   }
 
-  .custom-osint-wrapper .cta-button:hover {
+  .custom-osint-button a:hover {
     background-color: #a8031f;
-  }
-
-  .custom-osint-wrapper .image-block {
-    width: 100%;
-    margin: 0 auto 30px;
-    text-align: center;
-    overflow: visible;
-  }
-
-  .custom-osint-wrapper .image-block img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 600px) {
-    .custom-osint-wrapper h1 {
-      font-size: 22px;
-    }
-    .custom-osint-wrapper p,
-    .custom-osint-wrapper li {
-      font-size: 15px;
-    }
   }
 </style>
 
 <div class="custom-osint-wrapper">
-  <div class="inner">
+  <div class="custom-osint-content">
 
-    <div class="image-block">
-      <img src="/assets/images/quick_osint.webp" alt="Квик Осинт">
-    </div>
+    <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" />
 
     <h1>Квик Осинт — Бот для поиска данных в Телеграм</h1>
 
     <p>
       В условиях частых утечек и взломов данных, использование надёжных инструментов для поиска информации становится важным.
-      <strong><a href="{{ site.button_url }}" target="_blank">Квик Осинт</a></strong> — это Telegram-бот, который позволяет быстро получить данные о взломах, утечках и других сведениях по номеру телефона.
+      <strong><a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline;">Квик Осинт</a></strong> — это Telegram-бот, который позволяет быстро получить данные о взломах, утечках и других сведениях по номеру телефона.
     </p>
 
     <p>Квик Осинт предлагает многофункциональный набор инструментов для работы с данными, включая:</p>
@@ -131,14 +110,13 @@ markdown: false
     <p><strong>Чтобы начать использовать Квик Осинт, выполните несколько простых шагов:</strong></p>
 
     <ol>
-      <li>Перейдите по <a href="{{ site.button_url }}" target="_blank">ссылке</a> и начните чат с ботом.</li>
+      <li>Перейдите по <a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline;">ссылке</a> и начните чат с ботом.</li>
       <li>Нажмите “Start”, чтобы активировать бота и получить доступ к его функциям.</li>
       <li>Следуйте инструкциям бота и вводите команды для поиска информации.</li>
     </ol>
 
     <p>
-      Квик Осинт соблюдает требования законодательства и работает только с открытыми источниками данных.
-      Это безопасный и законный инструмент, который позволяет эффективно искать нужную информацию, но важно помнить об ответственности при использовании личных данных других людей.
+      Квик Осинт соблюдает требования законодательства и работает только с открытыми источниками данных. Это безопасный и законный инструмент, который позволяет эффективно искать нужную информацию, но важно помнить об ответственности при использовании личных данных других людей.
     </p>
 
     <p><strong>Для проверки номера телефона на утечки данных выполните следующие шаги:</strong></p>
@@ -149,13 +127,11 @@ markdown: false
     </ol>
 
     <p style="margin-top: 30px;">
-      <strong>Квик Осинт</strong> — это мощный и надёжный инструмент для работы с данными.
-      Он помогает быстро находить информацию о номерах телефонов, email-адресах и других данных, проверяя открытые источники и утечки данных.
-      Если вам нужен удобный и эффективный инструмент для исследования данных, Квик Осинт станет отличным выбором.
+      <strong>Квик Осинт</strong> — это мощный и надёжный инструмент для работы с данными. Он помогает быстро находить информацию о номерах телефонов, email-адресах и других данных, проверяя открытые источники и утечки данных. Если вам нужен удобный и эффективный инструмент для исследования данных, Квик Осинт станет отличным выбором.
     </p>
 
-    <div style="margin-top: 40px; text-align: center;">
-      <a href="{{ site.button_url }}" target="_blank" class="cta-button">
+    <div class="custom-osint-button">
+      <a href="{{ site.button_url }}" target="_blank">
         🔓 Открыть бота в Telegram
       </a>
     </div>
