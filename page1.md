@@ -17,6 +17,13 @@ markdown: false
 
 <div style="background-color: rgba(0, 0, 0, 0.6); padding: 40px 20px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4); margin: 0 auto;">
 
+  <!-- ССЫЛКА В НАЧАЛЕ -->
+  <div style="margin-bottom: 20px; text-align: center;">
+    🔎 <a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">
+      Открыть Telegram-бот Квик Осинт
+    </a>
+  </div>
+
   <div style="width: 100%; max-width: 800px; margin: 0 auto 30px; text-align: center; overflow: visible;">
     <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" style="max-width: 100%; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;" />
   </div>
@@ -41,7 +48,7 @@ markdown: false
   <p style="text-align: left;"><strong>Чтобы начать использовать Квик Осинт, выполните несколько простых шагов:</strong></p>
 
   <ol style="text-align: left;">
-    <li>Перейдите по <a href="https://t.me/QuickOSINT_OBot" target="_blank" style="color: #fff; text-decoration: underline;">ссылке</a> и начните чат с ботом.</li>
+    <li>Перейдите по <a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline;">ссылке</a> и начните чат с ботом.</li>
     <li>Нажмите “Start”, чтобы активировать бота и получить доступ к его функциям.</li>
     <li>Следуйте инструкциям бота и вводите команды для поиска информации.</li>
   </ol>
@@ -61,5 +68,11 @@ markdown: false
     <strong>Квик Осинт</strong> — это мощный и надёжный инструмент для работы с данными. Он помогает быстро находить информацию о номерах телефонов, email-адресах и других данных, проверяя открытые источники и утечки данных. Если вам нужен удобный и эффективный инструмент для исследования данных, Квик Осинт станет отличным выбором.
   </p>
 
-</div>
+  <!-- КНОПКА В КОНЦЕ -->
+  <div style="margin-top: 40px; text-align: center;">
+    <a href="{{ site.button_url }}" target="_blank" style="display: inline-block; padding: 12px 30px; background-color: #d90429; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: 500; transition: background-color 0.3s;">
+      🔓 Открыть бота в Telegram
+    </a>
+  </div>
 
+</div>
