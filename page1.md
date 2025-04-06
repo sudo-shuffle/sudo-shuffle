@@ -2,6 +2,7 @@
 layout: default
 title: Квик Осинт — Бот для поиска данных в Телеграм
 permalink: /quickosint_bot/
+markdown: false
 ---
 
 <style>
