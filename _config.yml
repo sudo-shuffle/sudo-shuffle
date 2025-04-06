@@ -1,8 +1,8 @@
 
 title: Quick OSINT
 description: Проверка персональных данных на утечки
-baseurl: "quickosint.online"
-url: "quickosint.online"
+baseurl: ""
+url: ""
 
 theme: minima
 
