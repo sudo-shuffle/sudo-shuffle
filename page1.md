@@ -4,17 +4,21 @@ title: Квик Осинт — Бот для поиска данных в Тел
 permalink: /quickosint_bot/
 ---
 
+<style>
+  html, body {
+    height: auto !important;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block !important;
+  }
+</style>
 
-<div style="background-color: rgba(0, 0, 0, 0.6); padding: 40px 20px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4);">
+<div style="background-color: rgba(0, 0, 0, 0.6); padding: 40px 20px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4); margin: 0 auto;">
 
-<div style="width: 100%; max-width: 800px; margin: 0 auto 30px; text-align: center; overflow: visible;">
-  <picture>
-    <source srcset="/assets/images/quick_osint.webp" type="image/webp">
-    <img src="/assets/images/quick_osint.webp"
-         alt="Квик Осинт"
-         style="max-width: 100%; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;">
-  </picture>
-</div>
+  <div style="width: 100%; max-width: 800px; margin: 0 auto 30px; text-align: center; overflow: visible;">
+    <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" style="max-width: 100%; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;" />
+  </div>
 
   <h1 style="text-align: center;">Квик Осинт — Бот для поиска данных в Телеграм</h1>
 
@@ -36,7 +40,7 @@ permalink: /quickosint_bot/
   <p style="text-align: left;"><strong>Чтобы начать использовать Квик Осинт, выполните несколько простых шагов:</strong></p>
 
   <ol style="text-align: left;">
-    <li>Перейдите по <a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline;">ссылке</a> и начните чат с ботом.</li>
+    <li>Перейдите по <a href="https://t.me/QuickOSINT_OBot" target="_blank" style="color: #fff; text-decoration: underline;">ссылке</a> и начните чат с ботом.</li>
     <li>Нажмите “Start”, чтобы активировать бота и получить доступ к его функциям.</li>
     <li>Следуйте инструкциям бота и вводите команды для поиска информации.</li>
   </ol>
@@ -57,3 +61,4 @@ permalink: /quickosint_bot/
   </p>
 
 </div>
+
