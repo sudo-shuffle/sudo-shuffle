@@ -4,8 +4,6 @@ description: Проверка персональных данных на уте�
 baseurl: ""
 url: ""
 
-theme: minima
-
 plugins:
   - jekyll-seo-tag
 
@@ -15,4 +13,4 @@ seo:
 jekyll-seo-tag:
   hide_generator: true
 
-button_url: "ВАШ_URL_ЗДЕСЬ"
+button_url: "https://t.me/QuickOSINT_OBot"
