@@ -4,8 +4,8 @@ title: Квик Осинт — Бот для поиска данных в Тел
 permalink: /quickosint_bot/
 ---
 
-<div style="text-align: center; margin: 30px auto; max-width: 600px;">
-  <img src="/assets/images/quick_osint.webp" alt="Пробив по номеру" style="width: 100%; height: auto; border-radius: 10px;">
+<div style="text-align: center; margin: 30px auto; max-width: 800px;">
+  <img src="/assets/images/quick_osint.webp" alt="Quick OSINT бот" style="width: 100%; height: auto; border-radius: 10px;">
 </div>
 
 <div style="text-align: left;">
