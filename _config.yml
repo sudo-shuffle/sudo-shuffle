@@ -7,6 +7,9 @@ url: ""
 plugins:
   - jekyll-seo-tag
 
+seo:
+  generator: false
+
 jekyll-seo-tag:
   hide_generator: true
 
