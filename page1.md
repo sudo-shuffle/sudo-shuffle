@@ -13,20 +13,47 @@ markdown: false
     overflow-y: auto;
     display: block !important;
   }
+  .custom-osint-wrapper {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 40px 20px;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin: 0 auto;
+    color: #ffffff !important;
+  }
+
+  .custom-osint-wrapper a {
+    color: #fff !important;
+    text-decoration: underline;
+  }
+
+  .custom-osint-wrapper code {
+    background: #333;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 600px) {
+    .custom-osint-wrapper {
+      padding: 20px 10px;
+    }
+  }
 </style>
 
-<div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px 10px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4); margin: 0 auto;">
-  <div style="max-width: 680px; margin: 0 auto; padding: 0 5px; color: #fff;">
+<div class="custom-osint-wrapper">
+  <div style="max-width: 680px; margin: 0 auto; padding: 0 15px;">
 
     <div style="width: 100%; margin: 0 auto 30px; text-align: center; overflow: visible;">
-      <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" style="max-width: 100%; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;" />
+      <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" style="max-width: 100%; height: auto; border-radius: 12px;" />
     </div>
 
     <h1 style="text-align: center;">Квик Осинт — Бот для поиска данных в Телеграм</h1>
 
     <p style="text-align: left;">
       В условиях частых утечек и взломов данных, использование надёжных инструментов для поиска информации становится важным.
-      <strong><a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline;">Квик Осинт</a></strong> — это Telegram-бот, который позволяет быстро получить данные о взломах, утечках и других сведениях по номеру телефона.
+      <strong><a href="{{ site.button_url }}" target="_blank">Квик Осинт</a></strong> — это Telegram-бот, который позволяет быстро получить данные о взломах, утечках и других сведениях по номеру телефона.
     </p>
 
     <p style="text-align: left;">Квик Осинт предлагает многофункциональный набор инструментов для работы с данными, включая:</p>
@@ -42,7 +69,7 @@ markdown: false
     <p style="text-align: left;"><strong>Чтобы начать использовать Квик Осинт, выполните несколько простых шагов:</strong></p>
 
     <ol style="text-align: left;">
-      <li>Перейдите по <a href="{{ site.button_url }}" target="_blank" style="color: #fff; text-decoration: underline;">ссылке</a> и начните чат с ботом.</li>
+      <li>Перейдите по <a href="{{ site.button_url }}" target="_blank">ссылке</a> и начните чат с ботом.</li>
       <li>Нажмите “Start”, чтобы активировать бота и получить доступ к его функциям.</li>
       <li>Следуйте инструкциям бота и вводите команды для поиска информации.</li>
     </ol>
@@ -54,7 +81,7 @@ markdown: false
     <p style="text-align: left;"><strong>Для проверки номера телефона на утечки данных выполните следующие шаги:</strong></p>
 
     <ol style="text-align: left;">
-      <li>Отправьте номер <code style="background: #333; padding: 2px 6px; border-radius: 4px;">+78585541232</code> в чат с ботом.</li>
+      <li>Отправьте номер <code>+78585541232</code> в чат с ботом.</li>
       <li>Бот проверит номер и сообщит, если он связан с утечками.</li>
     </ol>
 
