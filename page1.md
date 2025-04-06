@@ -4,13 +4,14 @@ title: Квик Осинт — Бот для поиска данных в Тел
 permalink: /quickosint_bot/
 ---
 
+
 <div style="background-color: rgba(0, 0, 0, 0.6); padding: 40px 20px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4);">
 
-  <div style="display: flex; justify-content: center; margin-bottom: 30px;">
-    <img src="/assets/images/quick_osint.webp" 
-         alt="Квик Осинт" 
-         style="width: 100%; max-width: 800px; height: auto; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-  </div>
+<div style="width: 100%; max-width: 800px; margin: 0 auto 30px; text-align: center;">
+  <img src="/assets/images/quick_osint.webp"
+       alt="Квик Осинт"
+       style="width: 100%; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.5); display: block;">
+</div>
 
   <h1 style="text-align: center;">Квик Осинт — Бот для поиска данных в Телеграм</h1>
 
