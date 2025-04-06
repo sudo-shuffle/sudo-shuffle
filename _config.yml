@@ -1,0 +1,12 @@
+
+title: Quick OSINT
+description: Проверка персональных данных на утечки
+baseurl: ""
+url: ""
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+
+button_url: "ВАШ_URL_ЗДЕСЬ"
