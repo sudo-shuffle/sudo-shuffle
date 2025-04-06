@@ -14,68 +14,55 @@ markdown: false
     display: block !important;
   }
 
-  .osint-container {
+  .custom-osint-wrapper {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px 10px;
     border-radius: 12px;
     max-width: 800px;
     width: 100%;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     margin: 0 auto;
     color: #fff;
     font-family: 'Roboto', sans-serif;
   }
 
-  .osint-inner {
+  .custom-osint-wrapper .inner {
     max-width: 680px;
     margin: 0 auto;
     padding: 0 10px;
   }
 
-  .osint-inner img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-    margin: 0 auto 30px;
-  }
-
-  .osint-inner h1 {
+  .custom-osint-wrapper h1 {
     text-align: center;
-    font-size: 26px;
     margin-bottom: 20px;
   }
 
-  .osint-inner p,
-  .osint-inner ul,
-  .osint-inner ol {
+  .custom-osint-wrapper p,
+  .custom-osint-wrapper ul,
+  .custom-osint-wrapper ol {
     text-align: left;
-    margin-bottom: 15px;
+    margin: 16px 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
   }
 
-  .osint-inner ul,
-  .osint-inner ol {
-    padding-left: 20px;
+  .custom-osint-wrapper li {
+    margin-bottom: 10px;
   }
 
-  .osint-inner code {
+  .custom-osint-wrapper code {
     background: #333;
     padding: 2px 6px;
     border-radius: 4px;
   }
 
-  .osint-inner a {
+  .custom-osint-wrapper a {
     color: #fff;
     text-decoration: underline;
   }
 
-  .osint-inner .btn-container {
-    margin-top: 30px;
-    text-align: center;
-  }
-
-  .osint-inner .btn-container a {
+  .custom-osint-wrapper .cta-button {
     display: inline-block;
     padding: 12px 30px;
     background-color: #d90429;
@@ -86,15 +73,43 @@ markdown: false
     transition: background-color 0.3s;
   }
 
-  .osint-inner .btn-container a:hover {
+  .custom-osint-wrapper .cta-button:hover {
     background-color: #a8031f;
+  }
+
+  .custom-osint-wrapper .image-block {
+    width: 100%;
+    margin: 0 auto 30px;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .custom-osint-wrapper .image-block img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    .custom-osint-wrapper h1 {
+      font-size: 22px;
+    }
+    .custom-osint-wrapper p,
+    .custom-osint-wrapper li {
+      font-size: 15px;
+    }
   }
 </style>
 
-<div class="osint-container">
-  <div class="osint-inner">
+<div class="custom-osint-wrapper">
+  <div class="inner">
 
-    <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" />
+    <div class="image-block">
+      <img src="/assets/images/quick_osint.webp" alt="Квик Осинт">
+    </div>
 
     <h1>Квик Осинт — Бот для поиска данных в Телеграм</h1>
 
@@ -122,7 +137,8 @@ markdown: false
     </ol>
 
     <p>
-      Квик Осинт соблюдает требования законодательства и работает только с открытыми источниками данных. Это безопасный и законный инструмент, который позволяет эффективно искать нужную информацию, но важно помнить об ответственности при использовании личных данных других людей.
+      Квик Осинт соблюдает требования законодательства и работает только с открытыми источниками данных.
+      Это безопасный и законный инструмент, который позволяет эффективно искать нужную информацию, но важно помнить об ответственности при использовании личных данных других людей.
     </p>
 
     <p><strong>Для проверки номера телефона на утечки данных выполните следующие шаги:</strong></p>
@@ -132,12 +148,16 @@ markdown: false
       <li>Бот проверит номер и сообщит, если он связан с утечками.</li>
     </ol>
 
-    <p>
-      <strong>Квик Осинт</strong> — это мощный и надёжный инструмент для работы с данными. Он помогает быстро находить информацию о номерах телефонов, email-адресах и других данных, проверяя открытые источники и утечки данных. Если вам нужен удобный и эффективный инструмент для исследования данных, Квик Осинт станет отличным выбором.
+    <p style="margin-top: 30px;">
+      <strong>Квик Осинт</strong> — это мощный и надёжный инструмент для работы с данными.
+      Он помогает быстро находить информацию о номерах телефонов, email-адресах и других данных, проверяя открытые источники и утечки данных.
+      Если вам нужен удобный и эффективный инструмент для исследования данных, Квик Осинт станет отличным выбором.
     </p>
 
-    <div class="btn-container">
-      <a href="{{ site.button_url }}" target="_blank">🔓 Открыть бота в Telegram</a>
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="{{ site.button_url }}" target="_blank" class="cta-button">
+        🔓 Открыть бота в Telegram
+      </a>
     </div>
 
   </div>
