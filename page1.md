@@ -6,11 +6,13 @@ permalink: /quickosint_bot/
 
 
 
-<div style="text-align: center; margin: 30px auto; max-width: 600px;">
-  <img src="/assets/images/quick_osint.webp" alt="Пробив по номеру" style="width: 100%; height: auto; border-radius: 10px;">
-</div>
+<div style="max-width: 800px; margin: 0 auto; font-size: 18px; line-height: 1.6;">
 
-<div style="max-width: 800px; margin: 0 auto; text-align: left; font-size: 18px; line-height: 1.6;">
+  <div style="text-align: center; margin: 30px 0;">
+    <img src="/assets/images/quick_osint.webp" 
+         alt="Пробив по номеру" 
+         style="width: 100%; height: auto; border-radius: 10px;">
+  </div>
 
 <p>
 В условиях частых утечек и взломов данных, использование надёжных инструментов для поиска информации становится важным. 
