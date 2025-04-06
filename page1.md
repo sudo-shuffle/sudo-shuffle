@@ -4,9 +4,17 @@ title: Квик Осинт — Бот для поиска данных в Тел
 permalink: /quickosint_bot/
 ---
 
-<div style="text-align: center;">
-  <img src="/assets/images/quick_osint.webp" alt="Пробив по номеру" style="max-width: 100%; height: auto;">
+---
+layout: default
+title: Возможности Квик Осинт
+permalink: /phone-search/
+---
+
+<div style="text-align: center; margin: 30px auto; max-width: 600px;">
+  <img src="/assets/images/quick_osint.webp" alt="Пробив по номеру" style="width: 100%; height: auto; border-radius: 10px;">
 </div>
+
+<div style="text-align: left;">
 
 <p>
 В условиях частых утечек и взломов данных, использование надёжных инструментов для поиска информации становится важным. 
@@ -42,6 +50,8 @@ permalink: /quickosint_bot/
   <li>Бот проверит и сообщит, если найдёт его в утечках.</li>
 </ol>
 
-<p>
+<p style="margin-top: 30px;">
 <b><a href="{{ site.button_url }}" target="_blank">Квик Осинт</a></b> — это мощный и надёжный инструмент для работы с данными. Он поможет быстро находить информацию по номерам телефонов, email-адресам и другим данным, используя только открытые источники.
 </p>
+
+</div>
