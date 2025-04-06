@@ -4,6 +4,8 @@ description: Проверка персональных данных на уте�
 baseurl: ""
 url: ""
 
+theme: minima
+
 plugins:
   - jekyll-seo-tag
 
