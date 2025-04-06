@@ -15,7 +15,7 @@ markdown: false
   }
 </style>
 
-<div style="background-color: rgba(0, 0, 0, 0.6); padding: 40px 20px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4); margin: 0 auto;">
+<div style="background-color: rgba(0, 0, 0, 0.6); padding: 40px 20px; border-radius: 12px; max-width: 800px; width: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.4); margin: 0 auto; color: #fff;">
 
  <div style="width: 100%; max-width: 800px; margin: 0 auto 30px; text-align: center; overflow: visible;">
     <img src="/assets/images/quick_osint.webp" alt="Квик Осинт" style="max-width: 100%; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;" />
