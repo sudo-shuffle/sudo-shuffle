@@ -2,10 +2,50 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'ru' }}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  {% seo %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<title>Quick OSINT — бот для пробива: поиск по номеру, email, СНИЛС и авто</title>
+<meta name="description" content="Quick OSINT — бот в Telegram для пробива информации: телефоны, email, пароли, задолженности, данные паспорта, СНИЛС, авто, банковские карты, соцсети.">
+<meta name="keywords" content="осинт, osint, бот для пробива, поиск по номеру, деанон, быстрый осинт, утечки данных, snils, telegram bot, пробив, telegram osint, паспорт, карта, авто, email">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="Quick OSINT Team">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://quickosint.online/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Quick OSINT — бот для пробива: информация по номеру, почте и СНИЛС">
+<meta property="og:description" content="Пробей номер телефона, email, паспорт, карту, авто, соцсети — быстро и анонимно.">
+<meta property="og:url" content="https://quickosint.online/">
+<meta property="og:image" content="/assets/images/logo.png">
+<meta property="og:locale" content="ru_RU">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Quick OSINT — бот для пробива">
+<meta name="twitter:description" content="Найди всё: от номера до авто. Анонимно, быстро, удобно.">
+<meta name="twitter:image" content="/assets/images/logo.png">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Quick OSINT",
+  "url": "https://quickosint.online/",
+  "description": "Quick OSINT — бот для пробива в Telegram. Поможет найти информацию о номере телефона, email, паспорте, задолженности, авто и многом другом.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Quick OSINT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/assets/images/logo.png"
+    }
+  }
+}
+</script>
+
 </head>
 <body>
     {{ content }}
